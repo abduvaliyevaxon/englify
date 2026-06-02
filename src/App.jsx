@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import logo from '../src/assets/headerLogo.png';
+import logo1 from '../src/assets/teacher_azam.jpg'
 import './App.css';
+
 
 function App() {
   return (
@@ -34,11 +36,68 @@ function App() {
 
 
 
-      <div className='max-w-6xl  mx-auto px-5 mt-15 flex '>
+      <div className='max-w-6xl  mx-auto px-5 mt-15 '>
         <div>
           <h2 className='text-white font-extrabold text-6xl'>General English</h2>
           <p className='text-white font-bold text-3xl mt-6'>Ingliz tilini zamonaviy metodlar yordamida <br/> tez va samarali o'rganing</p>
+        </div><br /><br />
+
+
+
+    <div className='flex gap-65'>
+        <div className="bg-[#f5f5f5] rounded-[28px] p-6 max-w-xl ">
+          {/*chap tomon*/}
+             <div>
+                  {/*Ism familya*/ }
+                  <label className="block text-[18px] font-semibold text-[#1B1464] mb-2">
+                    Ismingiz va Familiyangiz
+                  </label>
+
+                  <input  type="text" placeholder="Ismingiz va Familiyangiz" className="w-full h-[80] px-6 rounded-2xl bg-white text-lg   "/>
+             </div><br />
+
+             {/* Telefon */}
+             <div className="mb-6">
+                <label className="block text-[18px] font-semibold text-[#1B1464] mb-2">
+                  Telefon raqamingiz
+                </label>
+
+                <div className="flex h-[80] overflow-hidden rounded-2xl bg-white">
+                <div className="flex items-center gap-2 px-5 ">
+                <span className="text-[18px] font-medium">UZ</span>
+              </div>
+
+              <div className="flex items-center px-5 text-[#1B1464] text-[20px] font-bold">
+                +998
+              </div>
+
+              <input type="tel" className="flex-1 px-4"/><br />
+
+              
+            </div><br />
+
+            <button className="w-full h-12 rounded-2xl bg-[#2CF88F]  text-[#28004D] text-xl font-bold">
+                Ro'yhatdan o'tish
+            </button>
+
+            <p className="mt-5 text-center text-[16px] font-medium text-black">
+                Tugmani bosish orqali siz 
+            <a href="#" className="text-[#1195ff] underline">
+                ommaviy ofertamizga
+            </a>
+              rozilik bildirasiz!
+            </p>
         </div>
+      </div>
+
+
+    <div>
+      {/*ong tomon*/}
+      <img src={logo1} alt="rasm" className="h-55 object-contain" />
+    </div>
+  </div>
+
+
       </div>
     </div>
 
