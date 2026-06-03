@@ -36,7 +36,7 @@ function App() {
 
 
 
-      <div className='max-w-6xl  mx-auto px-5 mt-15 '>
+      <div className='max-w-7xl  mx-auto px-5 mt-10 '>
         <div>
           <h2 className='text-white font-extrabold text-6xl'>General English</h2>
           <p className='text-white font-bold text-3xl mt-6'>Ingliz tilini zamonaviy metodlar yordamida <br/> tez va samarali o'rganing</p>
@@ -44,8 +44,8 @@ function App() {
 
 
 
-    <div className='flex gap-65'>
-        <div className="bg-[#f5f5f5] rounded-[28px] p-6 max-w-xl ">
+    <div className='flex justify-between items-center'>
+        <div className="bg-[#f5f5f5] rounded-[28px] p-8 w-[600] ">
           {/*chap tomon*/}
              <div>
                   {/*Ism familya*/ }
@@ -93,7 +93,7 @@ function App() {
 
     <div>
       {/*ong tomon*/}
-      <img src={logo1} alt="rasm" className="h-55 object-contain" />
+      <img src={logo1} alt="rasm" className="h-120" />
     </div>
   </div>
 
