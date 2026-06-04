@@ -9,8 +9,8 @@ function App() {
     <>
     <div className='bg-[#00A4FF] h-screen '>
       <nav className="max-w-6xl px-5 pt-6 mx-auto ">
-        <div className="bg-white flex rounded-full items-center justify-between px-8 py-4">
-          <img src={logo} alt="logo" className="h-15 object-contain" />
+        <div className="bg-white flex rounded-full items-center justify-between px-8 py-4 shadow-lg">
+          <img src={logo} alt="logo web" className="h-15 object-contain" />
 
           <div className="flex items-center gap-8">
             <a href="#" className="text-[#28004D] text-xl">
@@ -36,16 +36,16 @@ function App() {
 
 
 
-      <div className='max-w-7xl  mx-auto px-5 mt-10 '>
+      <div className='max-w-6xl  mx-auto px-6 mt-10 '>
         <div>
-          <h2 className='text-white font-extrabold text-6xl'>General English</h2>
+          <h2 className='text-white font-extrabold text-7xl'>General English</h2>
           <p className='text-white font-bold text-3xl mt-6'>Ingliz tilini zamonaviy metodlar yordamida <br/> tez va samarali o'rganing</p>
         </div><br /><br />
 
 
 
     <div className='flex justify-between items-center'>
-        <div className="bg-[#f5f5f5] rounded-[28px] p-8 w-[600] ">
+        <div className="bg-[#f5f5f5] rounded-[30px] p-9 w-[600] ">
           {/*chap tomon*/}
              <div>
                   {/*Ism familya*/ }
