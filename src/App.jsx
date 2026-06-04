@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from '../src/assets/headerLogo.png';
 import logo1 from '../src/assets/teacher_azam.jpg'
 import './App.css';
-
+{/**Englify web sayt */}
 
 function App() {
   return (
@@ -62,7 +62,7 @@ function App() {
                   Telefon raqamingiz
                 </label>
 
-                <div className="flex h-[80] overflow-hidden rounded-2xl bg-white">
+                <div className="flex h-[80]  rounded-2xl bg-white">
                 <div className="flex items-center gap-2 px-5 ">
                 <span className="text-[18px] font-medium">UZ</span>
               </div>
@@ -93,7 +93,7 @@ function App() {
 
     <div>
       {/*ong tomon*/}
-      <img src={logo1} alt="rasm" className="h-120" />
+      <img src={logo1} alt="rasm" className="h-100" />
     </div>
   </div>
 
