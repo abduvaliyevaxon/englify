@@ -1,107 +1,74 @@
-import { useState } from 'react';
+import React from 'react';
 import logo from '../src/assets/headerLogo.png';
-import logo1 from '../src/assets/teacher_azam.jpg'
-import './App.css';
-{/**Englify web sayt */}
+import teacher from '../src/assets/teacher_azam.jpg';
 
 function App() {
   return (
-    <>
-    <div className='bg-[#00A4FF] h-screen '>
-      <nav className="max-w-6xl px-5 pt-6 mx-auto ">
-        <div className="bg-white flex rounded-full items-center justify-between px-8 py-4 shadow-lg">
-          <img src={logo} alt="logo web" className="h-15 object-contain" />
+    <div className="bg-[#04A4FF] min-h-screen">
+      {/* navbar  */}
+      <nav className="sticky top-4 z-50 max-w-6xl mx-auto">
+        <div className="flex items-center justify-between bg-white rounded-full px-8 py-4 shadow-lg">
+          {/* logo */}
+          <img src={logo} alt="logo veb" className=" h-16 object-contain" />
 
-          <div className="flex items-center gap-8">
-            <a href="#" className="text-[#28004D] text-xl">
-              Maktab haqida
-            </a>
-            <a href="#" className="text-[#28004D] text-xl">
-              Tariflar
-            </a>
-            <a href="#" className="text-[#28004D] text-xl">
-              Aloqa
-            </a>
-            <a href="#" className="text-[#28004D] text-xl">
-              Natijalar
-            </a>
+          <div className="flex gap-8 text-[#28004D] items-center font-bold text-xl">
+            <a href="#">Maktab haqida</a>
+            <a href="#">Tarfilar</a>
+            <a href="#">Aloqa</a>
+            <a href="#">Natijalar</a>
           </div>
 
-          <button className="bg-[#00A4FF] text-[#FFFFFF] text-xl rounded-full px-4.5 py-2">
+          <button className="bg-[#04A4FF] text-white px-8 py-4 rounded-full text-xl font-semibold">
             Student App
           </button>
         </div>
       </nav>
-    
 
-
-
-      <div className='max-w-6xl  mx-auto px-6 mt-10 '>
+      {/*hero section */}
+      <div className="max-w-6xl mx-auto mt-12 flex gap-40">
+        {/*chap tomono */}
         <div>
-          <h2 className='text-white font-extrabold text-7xl'>General English</h2>
-          <p className='text-white font-bold text-3xl mt-6'>Ingliz tilini zamonaviy metodlar yordamida <br/> tez va samarali o'rganing</p>
-        </div><br /><br />
+          <h1 className="text-white font-extrabold text-6xl">
+            General English
+          </h1>
+
+          <p className="text-white font-bold text-2xl mt-4">
+            Ingliz tilini zamonaviy metodlar yordamida <br /> tez va samarali o'rganing
+          </p>
 
 
 
-    <div className='flex justify-between items-center'>
-        <div className="bg-[#f5f5f5] rounded-[30px] p-9 w-[600] ">
-          {/*chap tomon*/}
-             <div>
-                  {/*Ism familya*/ }
-                  <label className="block text-[18px] font-semibold text-[#1B1464] mb-2">
-                    Ismingiz va Familiyangiz
-                  </label>
+          <div className='bg-white mt-8 rounded-3xl p-6 max-w-md'>
+            <div className='flex  flex-col gap-1'>
+              <label className=' text-[#28004D] font-bold'>Ismingiz va Familyangiz</label>
+              <input type="text" placeholder='Ismingiz va familyangiz' className='border border-gray-500 rounded-xl px-8 py-4 focus:border-[#28004D] font-bold' />
+            </div>
 
-                  <input  type="text" placeholder="Ismingiz va Familiyangiz" className="w-full h-[80] px-6 rounded-2xl bg-white text-lg   "/>
-             </div><br />
+            <div className='flex flex-col gap-1 mt-2'>
+              <label className=' text-[#28004D] font-bold'>Telefon raqam kiriting</label>
 
-             {/* Telefon */}
-             <div className="mb-6">
-                <label className="block text-[18px] font-semibold text-[#1B1464] mb-2">
-                  Telefon raqamingiz
-                </label>
+              <div className='border border-gray-500 rounded-xl px-8 py-4 focus:border-[#28004D] font-bold'>
+                <select>
+                  <option>🇺🇿</option>
+                  <option>rus</option>
+                </select>
 
-                <div className="flex h-[80]  rounded-2xl bg-white">
-                <div className="flex items-center gap-2 px-5 ">
-                <span className="text-[18px] font-medium">UZ</span>
+                <input type="tel" placeholder='+998' className='font-bold ' />
               </div>
+              <button className='bg-[#2CF88F] rounded-xl mt-6 py-2 font-bold'>Ro'yxatdan o'tish</button>
+            </div>
 
-              <div className="flex items-center px-5 text-[#1B1464] text-[20px] font-bold">
-                +998
-              </div>
+          </div>
 
-              <input type="tel" className="flex-1 px-4"/><br />
-
-              
-            </div><br />
-
-            <button className="w-full h-12 rounded-2xl bg-[#2CF88F]  text-[#28004D] text-xl font-bold">
-                Ro'yhatdan o'tish
-            </button>
-
-            <p className="mt-5 text-center text-[16px] font-medium text-black">
-                Tugmani bosish orqali siz 
-            <a href="#" className="text-[#1195ff] underline">
-                ommaviy ofertamizga
-            </a>
-              rozilik bildirasiz!
-            </p>
         </div>
-      </div>
 
-
-    <div>
-      {/*ong tomon*/}
-      <img src={logo1} alt="rasm" className="h-100" />
-    </div>
-  </div>
-
+        {/*ong tomon */}
+        <div>
+          <img src={teacher} alt="picture" className=" h-150 object-contain" />
+        </div>
 
       </div>
     </div>
-
-    </>
   );
 }
 
