@@ -49,6 +49,29 @@ const results=[
 
 ]
 
+const izohlar=[
+  {
+    "id":1,
+     "izohId":"https://d8tj7d7pfsmw2.cloudfront.net/1/ipipsvtI96mwBFR_Kd9C2J5BsffFyXZ1.jpg"
+  },
+  {
+    "id":2,
+     "izohId":"https://d8tj7d7pfsmw2.cloudfront.net/1/X0KcuriX9FqF7j4QQTK3ZU4YCSjd9xGX.jpg"
+  },
+  {
+    "id":3,
+     "izohId":"https://d8tj7d7pfsmw2.cloudfront.net/1/L5E7kf2B6ayz4pSjLVJJx2zh-dita2P4.jpg"
+  },
+  {
+    "id":4,
+     "izohId":"https://d8tj7d7pfsmw2.cloudfront.net/1/sza_vKM3wS1U7_agrFEcgtlTEM8_iDXk.jpg"
+  },
+  {
+    "id":5,
+     "izohId":"https://d8tj7d7pfsmw2.cloudfront.net/1/rmTMpUsD0Sxe43pOzHRQHw2zmEr5v6IJ.jpg"
+  },
+]
+
 function App() {
   return (
     <div>
@@ -145,9 +168,9 @@ function App() {
 
 
     {/*O'quvchilarimizning natijalari  start*/}
-    <div className='bg-[#F5F6FA] h-130'>
-      <div className='max-w-6xl mx-auto'>
-        <h2 className='text-[#28004D] font-bold  text-5xl px-52 '>O'quvchilarimizning natijalari💣</h2>
+    <div className='bg-[#F5F6FA] h-180'>
+      <div className='max-w-6xl mx-auto '>
+        <h2 className='text-[#28004D] font-bold text-center text-5xl py-20'>O'quvchilarimizning natijalari💣</h2>
 
         <div className='flex gap-8 overflow-auto'>
           {
@@ -167,6 +190,30 @@ function App() {
     {/*O'quvchilarimizning natijalari  end*/}
 
 
+
+
+    {/*O'quvchilarning izohlari🤩  start*/}
+    <div className='bg-#FFFFFF h-120'>
+      <div className='max-w-6xl mx-auto'>
+        <h2 className='text-[#28004D] font-bold text-center text-5xl py-20'>O'quvchilarning izohlari🤩</h2>
+
+        <div className='flex  gap-10 overflow-auto'>
+          {
+            izohlar.map((izoh)=>(
+              <div key={izoh.id}>
+                <img src={izoh.izohId} alt="picture"  className='h-[400px] w-full rounded-3xl relative'/>
+
+              </div>
+            ))
+          }
+        </div>
+
+
+      </div>
+
+
+    </div>
+    {/*O'quvchilarning izohlari🤩  end*/}
 
 
      </div>
