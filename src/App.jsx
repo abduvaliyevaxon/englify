@@ -2,8 +2,27 @@ import React from 'react';
 import logo from '../src/assets/headerLogo.png';
 import teacher from '../src/assets/teacher_azam.jpg';
 
+const students=[
+  {
+    "id":1,
+    "name":"Ulug`bek",
+     "videoId":""
+  },
+  {
+    "id":2,
+    "name":"Nabijon",
+    "videoId":""
+  },
+  {
+    "id":3,
+    "name":"Shaxruza",
+    "videoId":""
+  },
+]
+
 function App() {
   return (
+    <div>
     <div className="bg-[#04A4FF] min-h-screen">
       {/* navbar  */}
       <nav className="sticky top-4 z-50 max-w-6xl mx-auto">
@@ -25,7 +44,7 @@ function App() {
       </nav>
 
       {/*hero section */}
-      <div className="max-w-6xl mx-auto mt-12 flex gap-40">
+      <div className="max-w-6xl mx-auto mt-20 flex gap-40">
         {/*chap tomono */}
         <div>
           <h1 className="text-white font-extrabold text-6xl">
@@ -69,6 +88,35 @@ function App() {
 
       </div>
     </div>
+
+
+    <div className='bg-[#FFFFFF] h-96'>
+      <div className='max-w-6xl mx-auto'>
+        <h2 className='text-[#28004D] font-bold mt-20 text-5xl px-78'>O'quvchilarning fikrlari</h2>
+
+        <div className='flex gap-5'>
+          {
+            students.map((student)=>(
+            <div key={student.id}>
+              <h2>{student.name}</h2>
+              <img src={student.videoId} alt="video" />
+
+            </div>
+            )
+            )
+          }
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+     </div>
+    
+
+    
   );
 }
 
