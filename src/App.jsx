@@ -101,19 +101,15 @@ function App() {
       <div className='max-w-6xl mx-auto'>
         <h2 className='text-[#28004D] font-bold mt-20 text-5xl px-78'>O'quvchilarning fikrlari</h2>
 
-        <div className='flex gap-8 overflow-auto'>
+        <div className='flex gap-10 overflow-auto mt-20 '>
           {
             students.map((student)=>(
-            <div key={student.id}>
-                <iframe  src={`https://www.youtube-nocookie.com/embed/${student.videoId}`} frameborder="0"></iframe>
+            <div key={student.id} >
+              <iframe  src={`https://www.youtube-nocookie.com/embed/${student.videoId}`} frameborder="0" className='h-3xl w-full h-[400px] rounded-3xl relative'></iframe>
 
-
-              <h2>{student.name}</h2>
-              
-
+              <h2 className='absolute mt-[-50px] ml-[83px]  text-[#28004D] font-bold bg-[#FFFFFF] p-1.5 px-4 rounded-2xl'>{student.name}</h2>
             </div>
-            )
-            )
+            ))
           }
 
         </div>
@@ -122,6 +118,10 @@ function App() {
 
 
     </div>
+
+    {/*O'quvchilarimizning natijalari*/}
+    
+
 
      </div>
     
