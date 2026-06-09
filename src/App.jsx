@@ -6,17 +6,22 @@ const students=[
   {
     "id":1,
     "name":"Ulug`bek",
-     "videoId":""
+     "videoId":"LCi8Esm-GEk"
   },
   {
     "id":2,
     "name":"Nabijon",
-    "videoId":""
+    "videoId":"LCi8Esm-GEk"
   },
   {
     "id":3,
     "name":"Shaxruza",
-    "videoId":""
+    "videoId":"LCi8Esm-GEk"
+  },
+  {
+    "id":4,
+    "name":"Diyorbek",
+    "videoId":"LCi8Esm-GEk"
   },
 ]
 
@@ -90,16 +95,21 @@ function App() {
     </div>
 
 
+
+    {/*o'quvchilarning fikrlari */}
     <div className='bg-[#FFFFFF] h-96'>
       <div className='max-w-6xl mx-auto'>
         <h2 className='text-[#28004D] font-bold mt-20 text-5xl px-78'>O'quvchilarning fikrlari</h2>
 
-        <div className='flex gap-5'>
+        <div className='flex gap-8 overflow-auto'>
           {
             students.map((student)=>(
             <div key={student.id}>
+                <iframe  src={`https://www.youtube-nocookie.com/embed/${student.videoId}`} frameborder="0"></iframe>
+
+
               <h2>{student.name}</h2>
-              <img src={student.videoId} alt="video" />
+              
 
             </div>
             )
