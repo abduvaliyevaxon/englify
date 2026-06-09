@@ -25,6 +25,30 @@ const students=[
   },
 ]
 
+const results=[
+  {
+    "id":1,
+    "name":"SALOKHOV JAKHONGIR",
+     "resultId":"https://d8tj7d7pfsmw2.cloudfront.net/1/X1C-g0ihBRiTNFc0-SkC3fUSFq3dN_kh.webp"
+  },
+  {
+    "id":2,
+    "name":"MIRZAEV ERALI",
+     "resultId":"https://d8tj7d7pfsmw2.cloudfront.net/1/V-MSRDBc4n6e6OOXxxcjJymyRpj9Q_DU.webp"
+  },
+  {
+    "id":3,
+    "name":"KOBULOV ABU BAKR",
+     "resultId":"https://d8tj7d7pfsmw2.cloudfront.net/1/U7V0ryi21mq0Kfd46ehumhd_uZDvcYd7.webp"
+  },
+  {
+    "id":4,
+    "name":"SHARIPOV AKMALJON",
+     "resultId":"https://d8tj7d7pfsmw2.cloudfront.net/1/sVM5RV9ZiMQLQfYW4sy_MP70aCiSpyy5.webp"
+  },
+
+]
+
 function App() {
   return (
     <div>
@@ -96,8 +120,8 @@ function App() {
 
 
 
-    {/*o'quvchilarning fikrlari */}
-    <div className='bg-[#FFFFFF] h-96'>
+    {/*o'quvchilarning fikrlari start*/}
+    <div className='bg-[#FFFFFF] h-170'>
       <div className='max-w-6xl mx-auto'>
         <h2 className='text-[#28004D] font-bold mt-20 text-5xl px-78'>O'quvchilarning fikrlari</h2>
 
@@ -105,7 +129,7 @@ function App() {
           {
             students.map((student)=>(
             <div key={student.id} >
-              <iframe  src={`https://www.youtube-nocookie.com/embed/${student.videoId}`} frameborder="0" className='h-3xl w-full h-[400px] rounded-3xl relative'></iframe>
+              <iframe  src={`https://www.youtube-nocookie.com/embed/${student.resultId}`} frameborder="0" className=' w-full h-[400px] rounded-3xl relative'></iframe>
 
               <h2 className='absolute mt-[-50px] ml-[83px]  text-[#28004D] font-bold bg-[#FFFFFF] p-1.5 px-4 rounded-2xl'>{student.name}</h2>
             </div>
@@ -115,12 +139,34 @@ function App() {
         </div>
 
       </div>
-
-
     </div>
+    {/*o'quvchilarning fikrlari end*/}
 
-    {/*O'quvchilarimizning natijalari*/}
-    
+
+
+    {/*O'quvchilarimizning natijalari  start*/}
+    <div className='bg-[#F5F6FA] h-130'>
+      <div className='max-w-6xl mx-auto'>
+        <h2 className='text-[#28004D] font-bold  text-5xl px-52 '>O'quvchilarimizning natijalari💣</h2>
+
+        <div className='flex gap-8 overflow-auto'>
+          {
+            results.map((result)=>(
+              <div key={result.id}>
+                <img src={result.resultId} alt="picture"  className='h-[400px] w-full rounded-3xl relative'/>
+
+                <h2 className='absolute text-[#28004D] font-bold bg-white rounded-2xl  mt-[-58px] ml-[38px] p-1.5 px-4'>{result.name}</h2>
+              </div>
+            ))
+          }
+        </div>
+
+      
+      </div>
+    </div>
+    {/*O'quvchilarimizning natijalari  end*/}
+
+
 
 
      </div>
