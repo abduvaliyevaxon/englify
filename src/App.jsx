@@ -193,7 +193,7 @@ function App() {
 
 
     {/*O'quvchilarning izohlari🤩  start*/}
-    <div className='bg-#FFFFFF h-120'>
+    <div className='bg-[#FFFFFF] h-170'>
       <div className='max-w-6xl mx-auto'>
         <h2 className='text-[#28004D] font-bold text-center text-5xl py-20'>O'quvchilarning izohlari🤩</h2>
 
@@ -207,15 +207,81 @@ function App() {
             ))
           }
         </div>
-
-
       </div>
-
-
     </div>
     {/*O'quvchilarning izohlari🤩  end*/}
 
 
+
+
+    {/*Imkoniyatlar - ajoyib!   start*/}
+    <div className='bg-[#F5F6FA]  h-300'>
+      <div className='max-w-6xl  mx-auto'>
+        <h2  className='text-[#28004D] font-bold text-center text-5xl py-20'>Imkoniyatlar - ajoyib! <br />Kursni tugatgandan keyingi natijalaringiz ham qiziqmi?!</h2>
+
+        <div className='bg-[#f3f3f5] min-h-screen py-16 px-10'>
+            <div className='max-w-[2000px] mx-auto grid grid-cols-3 gap-8'>
+              {/*chap ustun*/}
+              <div className="flex flex-col gap-[32px] pt-[120px]">
+                  <div className="rounded-[40px] border-[3px] border-[#7ED957] bg-white p-8 font-semibold text-[#7ED957] leading-[32px]">
+                    Sevimli qo'shiqlaringizning ma'nosini tushunish uchun har xil
+                    saytlardan qidirishingiz, filmlarning esa subtitrlarini o'qib
+                    o'tirish shart emas. Qisqa vaqt ichida Listening'ingiz
+                    yaxshilanganini sezasiz.
+                  </div>
+
+                  <div className="rounded-[40px] border-[3px] border-[#FFA45B] bg-white p-8 font-semibold text-[#FFA45B] leading-[32px]">
+                    So'zlarni to'g'ri talaffuz qilishni o'rganasiz. Va'da berib
+                    aytamizki, "Something in your eyes" iborasini Avazbek Olimovdan
+                    yaxshiroq ayta olasiz.
+                  </div>
+              </div>
+
+              {/*o'tadagi ustun*/}
+              <div className="flex flex-col gap-[32px]">
+                  <div className="rounded-[40px] border-[3px] border-[#B6B0E6] bg-white p-8 font-semibold text-[#746CB0] leading-[32px]">
+                    Ingliz tilini o'rganish orqali nufuzli chet el
+                    universitetlariga grant yutish imkoni ham paydo bo'ladi.
+                  </div>
+
+                  <div className="rounded-[40px] border-[3px] border-[#FFA45B] bg-white p-8 font-semibold text-[#FFA45B] leading-[32px]">
+                      Jahon adabiyotining eng buyuk asarlarini asl nusxada o'qib
+                      tushuningiz, dunyo yangiliklaridan mashhur saytlar orqali
+                      xabardor bo'lib borishingiz mumkin.
+                  </div>
+
+                  <div className="rounded-[40px] border-[3px] border-[#FF6B63] bg-white p-8 font-semibold text-[#FF6B63] leading-[32px]">
+                    Ingliz tilini o'rganishning mutlaqo yangi va zamonaviy
+                    metodlarini sinab ko'rishingiz, o'zingiz uchun til
+                    o'rganishning yangi bosqichini kashf qilasiz.
+                  </div>
+              </div>
+
+              {/*o'ng taraf*/}
+              <div className="flex flex-col gap-[32px] pt-[140px]">
+                  <div className="rounded-[40px] border-[3px] border-[#6EA8FF] bg-white p-8 font-semibold text-[#3F73D8] leading-[32px]">
+                    Qaysi osh eng yaxshi ekanligi yoki "Gentra"ning narxini
+                    bilishdan ko'ra ko'proq narsaga erishmoqchi bo'lgan maqsadli,
+                    kuchli va sifatli muhitga kirasiz.
+                  </div>
+
+                  <div className="rounded-[40px] border-[3px] border-[#E4B300] bg-white p-8 font-semibold text-[#D09C00] leading-[32px]">
+                    Shaxsiy karyerangizda o'sish uchun yuqori maoshli ish
+                    topishingiz, xorijiy tashkilotlar bilan hamkorlik qilib
+                    "soqqani soqqaga urishni" boshlaysiz.
+                  </div>
+              </div>
+
+
+
+            </div>
+
+        </div>
+
+
+      </div>
+    </div>
+    {/*Imkoniyatlar - ajoyib!   end*/}
      </div>
     
 
