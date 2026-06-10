@@ -275,9 +275,10 @@ function App() {
 
 
             </div>
+            <button className='bg-[#2CF88F] text-[#28004D] text-xl rounded-xl mt-6 py-4 font-bold w-full'>Ishtirok etish!</button>
 
         </div>
-
+        
 
       </div>
     </div>
