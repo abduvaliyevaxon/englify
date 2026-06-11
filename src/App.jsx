@@ -283,7 +283,7 @@ function App() {
 
 
     {/*Sizni nima kutmoqda?  start*/}
-    <div className='bg-[#FFFFFF] h-180'>
+    <div className='bg-[#FFFFFF] h-340'>
         <div className='max-w-6xl mx-auto'>
           <h2 className='text-[#28004D] font-bold text-center text-6xl py-20'>Sizni nima kutmoqda?</h2>
 
@@ -291,7 +291,7 @@ function App() {
           <div className='bg-[#FFFFFF] min-h-screen py-5 px-2'>
             <div className='max-w-[2000px] mx-auto grid grid-rows-2 gap-8'>
                 {/**1-qator start */}
-                <div  className="flex flex-row gap-[32px] ">
+                <div  className="flex flex-row gap-[32px] mt-[-30px] ">
                   <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6 mt-5 font-semibold text-[#28004D] leading-[25px]">
                     <h2 className='text-2xl font-bold '><span>🖥</span>Onlayn - format</h2><br />
                     <p >Dunyoning istalgan nuqtasidan 24/7 vaqtda ilovaga kirish imkoniyati bor. Akauntingizga har qanday qurilmadan kirishingiz, darslarni o'zlashtirishingiz, mavzu yuzasidan savollarga sun'iy intellektdan javob olishingiz mumkin.</p><br />
@@ -316,8 +316,8 @@ function App() {
 
 
                 {/**2-qator start */}
-                <div  className="flex flex-row gap-[32px] ">
-                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6 mt-5 h-[250px] font-semibold text-[#28004D] leading-[25px]">
+                <div  className="flex flex-row gap-[32px] mt-[-15px] ">
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-5 mt-7 h-[250px] w-[900px] font-semibold text-[#28004D] leading-[25px]">
                     <h2 className='text-2xl font-bold '><span>🫂</span>Guruhlar</h2><br />
                     <p >O'rtacha 14-16 ta o'quvchidan iborat guruhlarda o'quvchilar jonli onlayn darslarga qatnashadi, o'zaro bellashishadi va bir birlariga yordam berishadi.</p><br />
 
@@ -343,8 +343,8 @@ function App() {
 
 
                 {/*3-qator start*/}
-                <div  className="flex flex-row gap-[32px] ">
-                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6  h-[310px] font-semibold text-[#28004D] leading-[25px]">
+                <div  className="flex flex-row gap-[32px] mt-[-30px] ">
+                  <div className="rounded-[20px] border-[3px]  border-[#C9CDE3] bg-white p-6  h-[310px] font-semibold text-[#28004D] leading-[25px]">
                     <h2 className='text-2xl font-bold '><span>👤</span>Interaktiv onlayn platforma va shaxsiy akkaunt</h2><br />
                     <p >Har bir o'quvchi shaxsiy login va parollari orqali akauntiga kiradi. Mobil ilovada barcha video darslar, yangi so'zlar jadvali, uy vazifalari, jang natijalari va darajaga mos zoom darslari oson va tushunarli tarzda ko'rsatilgan.</p><br />
 
@@ -369,11 +369,84 @@ function App() {
                 {/*3-qator end*/}
 
             </div>
+            <button className='bg-[#2CF88F] text-[#28004D] text-xl rounded-xl mt-6 py-4 font-bold w-full'>Ishtirok etish!</button>
           </div>
         </div>
 
     </div>
     {/*Sizni nima kutmoqda?  end*/}
+
+
+
+    {/**kurslarimiz aynan start */}
+    <div className='bg-[#F5F6FA] h-190'>
+       <div className='max-w-6xl mx-auto'>
+        <h2 className='text-[#28004D] font-bold text-5xl py-25'>Kurslarimiz aynan</h2>
+
+        <div className='bg-[#F5F6FA] min-h-screen py-5 px-2 mt-[-55px]'>
+          <div className='max-w-[2000px] mx-auto grid grid-rows-3 gap-5'>
+            <div className="flex flex-row gap-[32px] ">
+
+              <div className="rounded-[40px] border-[3px] border-[#E7B458] bg-[#FFD587] p-5 w-170 h-45  font-semibold text-[#28004D] leading-[26px]">
+                <h2  className='text-[#28004D] font-bold text-2xl '>Abituriyentlar</h2>
+                <p>Davlat va chet el universitetlari, litsey va boshqa o'quv muassasalari imtihonlariga ingliz tilidan tayyorlanuvchilar uchun</p>
+              </div>
+
+              <div className="rounded-[40px] border-[3px] border-[#96E66E] bg-[#B9FF97] p-5  font-semibold text-[#28004D] leading-[26px]">
+                <h2 className='text-[#28004D] font-bold text-2xl '>Havaskorlar</h2>
+                <p>Yangi til va madaniyatlarni o'rganishga qiziquvchi sayohatchilar, poliglotlar uchun</p>
+              </div>
+
+              <div className="rounded-[40px] border-[3px] border-[#72A3E4] bg-[#A2CAFF] p-5  font-semibold text-[#28004D] leading-[26px]">
+                <h2 className='text-[#28004D] font-bold text-2xl '>Ma'lum kasb egalari</h2>
+                <p>Qo'shimcha til bilish orqali o'z karyerasida o'sishni reja qilyotgan xodimlar uchun</p>
+              </div>
+            </div>
+
+
+
+
+
+            <div className="flex flex-row gap-[32px] ">
+
+              <div className="rounded-[40px] border-[3px] border-[#B3B3D9] bg-[#D3D3F1] p-5  font-semibold text-[#28004D] leading-[26px]">
+                <h2 className='text-[#28004D] font-bold text-2xl '>Maktab o'quvchilari</h2>
+                <p>Ingliz tilini o'rganib, darsdan bo'sh vaqtlarini samarali o'tkazishni xohlovchi o'quvchilar uchun</p>
+              </div>
+
+              <div className="rounded-[40px] border-[3px] border-[#BD90EC] bg-[#DBB7FF] p-5  font-semibold text-[#28004D] leading-[26px]">
+                <h2 className='text-[#28004D] font-bold text-2xl '>Talabalar</h2>
+                <p>Darslardan tashqari zamonaviy kasblarni o'rganib moliyaviy erkinlikka erishmoqchi bo'lgan yoshlar uchun</p>
+              </div>
+
+              <div className="rounded-[40px] border-[3px] border-[#E0CE46] bg-[#FFF18A] p-5  font-semibold text-[#28004D] leading-[26px]">
+                <h2 className='text-[#28004D] font-bold text-2xl '>Chet eldagi yurtdoshlarimiz</h2>
+                <p>Ishlash yoki o'qish maqsadida chet elga ketgan, kundalik muloqot uchun ingliz tiliga ehtiyoji bo'lgan insonlar uchun ideal tanlov hisoblanadi</p>
+              </div>
+            </div>
+            <div className='mt-5'>
+            <button className='bg-[#2CF88F]  text-[#28004D] text-xl rounded-xl py-4 font-bold w-full'>Ishtirok etish!</button>
+          </div>
+          </div>
+          
+        </div>
+        
+
+       </div>
+    </div>
+    {/**kurslarimiz aynan end */}
+
+
+
+    {/**mentorlarimiz start */}
+    <div className='bg-[#FFFFFF] h-190'>
+      <div className='mx-auto max-w-6xl'>
+        <h2 className='text-[#28004D] font-bold text-center  text-5xl leading-[120px]'>Mentorlarimiz</h2>
+        <p className='text-[#28004D] font-bold text-center  text-2xl '>Bizning maktab — bu ingliz tilini oson va qiziqarli o'rganish uchun ajoyib joy!  <br />Tajribali o'qituvchilar va zamonaviy dasturlar yordamida siz maqsadingizga tezroq erishasiz.</p>
+
+      </div>
+    </div>
+    {/**mentorlarimiz end */}
 
      </div>
     
