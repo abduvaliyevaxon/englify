@@ -286,6 +286,69 @@ function App() {
     <div className='bg-[#FFFFFF] h-180'>
         <div className='max-w-6xl mx-auto'>
           <h2 className='text-[#28004D] font-bold text-center text-6xl py-20'>Sizni nima kutmoqda?</h2>
+
+          {/*1-qator start */}
+          <div className='bg-[#FFFFFF] min-h-screen py-5 px-2'>
+            <div className='max-w-[2000px] mx-auto grid grid-rows-2 gap-8'>
+                {/**1-qator start */}
+                <div  className="flex flex-row gap-[32px] ">
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6 mt-5 font-semibold text-[#28004D] leading-[25px]">
+                    <h2 className='text-2xl font-bold '><span>🖥</span>Onlayn - format</h2><br />
+                    <p >Dunyoning istalgan nuqtasidan 24/7 vaqtda ilovaga kirish imkoniyati bor. Akauntingizga har qanday qurilmadan kirishingiz, darslarni o'zlashtirishingiz, mavzu yuzasidan savollarga sun'iy intellektdan javob olishingiz mumkin.</p><br />
+
+                  {/*buttonlar "joshqin" va "botalogim" start*/}
+                    <button className='bg-[#1BE67D] font-bold text-white text-[15px] px-4 py-2 rounded-xl mr-3'>JO'SHQIN</button>
+                    <button className='bg-[#8873FF] font-bold text-white text-[15px] px-4 py-2 rounded-xl'>BO'TALOG'IM</button>
+                  {/*buttonlar "joshqin" va "botalogim" end*/}
+                  </div>
+
+
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6 mt-5 font-semibold text-[#28004D] leading-[25px]">
+                    <h2 className='text-2xl font-bold '><span>💼</span>Uy vazifasi bo'yicha doimiy fikr-mulohazalar</h2><br />
+                    <p>Qiziqarli va foydali zoom darslari 2 ta o'qituvchi siz bilan Grammatika va Speaking ko'nikmalari bo'yicha alohida alohida shug'ullanadi. Mavzularni tushuntiradi, savollarga javob beradi va tavsiyalarini berib boradi.</p><br />
+
+                    {/*button start */}
+                    <button className='bg-[#8873FF] font-bold text-white text-[15px] px-4 py-2 rounded-xl'>BO'TALOG'IM</button>
+                    {/*button end */}
+                  </div>
+                </div>
+                {/**1-qator end */}
+
+
+                {/**2-qator start */}
+                <div  className="flex flex-row gap-[32px] ">
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6 mt-5 h-[250px] font-semibold text-[#28004D] leading-[25px]">
+                    <h2 className='text-2xl font-bold '><span>🫂</span>Guruhlar</h2><br />
+                    <p >O'rtacha 14-16 ta o'quvchidan iborat guruhlarda o'quvchilar jonli onlayn darslarga qatnashadi, o'zaro bellashishadi va bir birlariga yordam berishadi.</p><br />
+
+                  {/*buttonlar "joshqin" va "botalogim" start*/}
+                    <button className='bg-[#8873FF] font-bold text-white text-[15px] px-4 py-2 rounded-xl'>BO'TALOG'IM</button>
+                  {/*buttonlar "joshqin" va "botalogim" end*/}
+                  </div>
+
+
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6 mt-5 h-[250px] font-semibold text-[#28004D] leading-[25px]">
+                    <h2 className='text-2xl font-bold '><span>🧾</span>Sertifikatlar</h2><br />
+                    <p>Har bir daraja tugatilganda sertifikat olish imkoni bor. Sertifikat darajasi amaliy ingliz tili darajangiz bilan bir xil bo'ladi.</p><br />
+
+                    {/*button start */}
+                    <button className='bg-[#1BE67D] font-bold text-white text-[15px] px-4 py-2 rounded-xl mr-3'>JO'SHQIN</button>
+                    <button className='bg-[#8873FF] font-bold text-white text-[15px] px-4 py-2 rounded-xl'>BO'TALOG'IM</button>
+                    {/*button end */}
+                  </div>
+
+                </div>
+                {/**2-qator end */}
+
+
+
+                {/*3-qator start*/}
+
+
+                {/*3-qator end*/}
+
+            </div>
+          </div>
         </div>
 
     </div>
