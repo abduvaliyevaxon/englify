@@ -287,7 +287,7 @@ function App() {
         <div className='max-w-6xl mx-auto'>
           <h2 className='text-[#28004D] font-bold text-center text-6xl py-20'>Sizni nima kutmoqda?</h2>
 
-          {/*1-qator start */}
+
           <div className='bg-[#FFFFFF] min-h-screen py-5 px-2'>
             <div className='max-w-[2000px] mx-auto grid grid-rows-2 gap-8'>
                 {/**1-qator start */}
@@ -343,8 +343,29 @@ function App() {
 
 
                 {/*3-qator start*/}
+                <div  className="flex flex-row gap-[32px] ">
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6  h-[310px] font-semibold text-[#28004D] leading-[25px]">
+                    <h2 className='text-2xl font-bold '><span>👤</span>Interaktiv onlayn platforma va shaxsiy akkaunt</h2><br />
+                    <p >Har bir o'quvchi shaxsiy login va parollari orqali akauntiga kiradi. Mobil ilovada barcha video darslar, yangi so'zlar jadvali, uy vazifalari, jang natijalari va darajaga mos zoom darslari oson va tushunarli tarzda ko'rsatilgan.</p><br />
+
+                  {/*buttonlar "joshqin" va "botalogim" start*/}
+                    <button className='bg-[#1BE67D] font-bold text-white text-[15px] px-4 py-2 rounded-xl mr-3'>JO'SHQIN</button>
+                    <button className='bg-[#8873FF] font-bold text-white text-[15px] px-4 py-2 rounded-xl'>BO'TALOG'IM</button>
+                  {/*buttonlar "joshqin" va "botalogim" end*/}
+                  </div>
 
 
+                  <div className="rounded-[20px] border-[3px] border-[#C9CDE3] bg-white p-6  h-[300px] font-semibold text-[#28004D] leading-[25px]">
+                    <h2 className='text-2xl font-bold '><span>🛎</span>Haqiqiy amerikancha darslar</h2><br />
+                    <p>Har bir video aynan Amerika maktablari muhitida suratga olingan. Bitta darsda 2tadan 4gagacha serial ko'rinishidagi videodarslarni ko'rish orqali mavzuni oson va qiziqarli tarzda tushunib olasiz (videolar davomiyligi 5-10 daqiqa).</p><br />
+
+                    {/*button start */}
+                    <button className='bg-[#1BE67D] font-bold text-white text-[15px] px-4 py-2 rounded-xl mr-3'>JO'SHQIN</button>
+                    <button className='bg-[#8873FF] font-bold text-white text-[15px] px-4 py-2 rounded-xl'>BO'TALOG'IM</button>
+                    {/*button end */}
+                  </div>
+
+                </div>
                 {/*3-qator end*/}
 
             </div>
