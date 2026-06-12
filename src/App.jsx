@@ -72,6 +72,26 @@ const izohlar=[
   },
 ]
 
+const mentorlarimiz=[
+  {
+    "id":1,
+     "mentorId":"https://d1t7rcnioaivek.cloudfront.net/1/HMjHYXSkx0DKXBSPAepnjPYyLKmX3Aby.jpg"
+  },
+  {
+    "id":2,
+     "mentorId":"https://d8tj7d7pfsmw2.cloudfront.net/2/T6_KfNbc-XLIfFsIX9N1ENveexYk_I6-.webp"
+  },
+  {
+    "id":3,
+     "mentorId":"https://d1t7rcnioaivek.cloudfront.net/1/5iZiW4_pJbemoAPDz6O72tR22g9wVRl8.jpg"
+  },
+  {
+    "id":4,
+     "mentorId":"https://d1t7rcnioaivek.cloudfront.net/1/7FcH0e4Ulw_4kM9pAvM8djT5LC2dJhCi.jpg"
+  },
+]
+
+
 function App() {
   return (
     <div>
@@ -442,11 +462,27 @@ function App() {
     <div className='bg-[#FFFFFF] h-190'>
       <div className='mx-auto max-w-6xl'>
         <h2 className='text-[#28004D] font-bold text-center  text-5xl leading-[120px]'>Mentorlarimiz</h2>
-        <p className='text-[#28004D] font-bold text-center  text-2xl '>Bizning maktab — bu ingliz tilini oson va qiziqarli o'rganish uchun ajoyib joy!  <br />Tajribali o'qituvchilar va zamonaviy dasturlar yordamida siz maqsadingizga tezroq erishasiz.</p>
+        <p className='text-[#28004D] font-bold text-center  text-2xl '>Bizning maktab — bu ingliz tilini oson va qiziqarli o'rganish uchun ajoyib joy!  <br />Tajribali o'qituvchilar va zamonaviy dasturlar yordamida siz maqsadingizga tezroq erishasiz.</p><br /><br />
+
+        <div className='flex  gap-10 overflow-auto'>
+          {
+            mentorlarimiz.map((mentor)=>(
+              <div key={mentor.id}>
+                <img src={mentor.mentorId} alt="picture"  className='h-[480px] w-full rounded-3xl relative'/>
+
+              </div>
+            ))
+          }
+        </div>
 
       </div>
     </div>
     {/**mentorlarimiz end */}
+
+
+
+
+
 
      </div>
     
