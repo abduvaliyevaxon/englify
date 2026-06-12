@@ -664,7 +664,7 @@ function App() {
 
 
       {/*Hamma uchun qulay tarif turlari va narxlar start*/}
-      <div className="bg-[#FFFFFF] h-380">
+      <div className="bg-[#FFFFFF] h-370">
         <div className="mx-auto max-w-6xl py-32">
           <h2 className='text-5xl text-[#28004D] font-bold text-center align-center ' >Hamma uchun qulay tarif turlari va narxlar:</h2>
           <div className="grid grid-cols-2 gap-10 py-12">
@@ -712,12 +712,6 @@ function App() {
                     To'lov qilingan davrda cheklanmagan miqdordagi darslarni
                     o'zlashtirish mumkin
                   </p>
-                </div>
-
-                <div className="flex items-center gap-3 py-3">
-                  <div className="flex-1 h-[2px] bg-[#240046]" />
-                  <div className="w-8 h-8 rounded-full border-2 border-[#240046]" />
-                  <div className="flex-1 h-[2px] bg-[#240046]" />
                 </div>
 
                 <div className="border-b pb-3 opacity-30">
@@ -847,7 +841,55 @@ function App() {
 
 
 
-      
+      {/**orzuga yaqinroq bo'ling  start */}
+      <div className='bg-[#F5F6FA] h-150'>
+        <div className='mx-auto max-w-6xl'>
+            <div className='flex gap-50 py-35'>
+              {/*chap taraf  start*/}
+              <div>
+                <h2 className='text-4xl text-[#28004D] font-bold '>Orzuga yaqinroq bo'ling – <br />o'qishga ariza bering!</h2><br />
+                <p className='text-xl text-[#28004D] font-bold '>Ingliz tilini  o'rganishni boshlash hech qachon bunchalik oson <br /> bo'lmagan. Englify - sizga online ta'limda ingliz tilini <br /> o'rganishning eng yaxshi usullarini taklif qiladi. <br /> Maqsadlaringizga tezroq erishish uchun darslarni bugundan  boshlang!</p>
+              </div>
+              {/*chap taraf  end*/}
+
+
+              {/*o`ng taraf  satrt */}
+              <div className="bg-white  rounded-3xl p-6 max-w-md  w-190 h-80" >
+              <div className="flex  flex-col  gap-1">
+                <label className=" text-[#28004D] font-bold">
+                  Ismingiz va Familyangiz
+                </label>
+                <input
+                  type="text"
+                  placeholder="Ismingiz va familyangiz"
+                  className="border border-gray-500 rounded-xl px-8 py-4 focus:border-[#28004D] font-bold"
+                />
+              </div>
+
+              <div className="flex flex-col gap-1 mt-2">
+                <label className=" text-[#28004D] font-bold">
+                  Telefon raqam kiriting
+                </label>
+
+                <div className="border border-gray-500 rounded-xl px-8 py-4 focus:border-[#28004D] font-bold">
+                  <select>
+                    <option>🇺🇿</option>
+                    <option>rus</option>
+                  </select>
+
+                  <input type="tel" placeholder="+998" className="font-bold " />
+                </div>
+                <button className="bg-[#2CF88F] rounded-xl mt-6 py-2 font-bold">
+                  Ro'yxatdan o'tish
+                </button>
+              </div>
+            </div>
+              {/*o`ng taraf  end */}
+
+            </div>
+        </div>      
+      </div>
+      {/**orzuga yaqinroq bo'ling  end */}
     </div>
   );
 }
