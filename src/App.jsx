@@ -326,8 +326,6 @@ function App() {
       </div>
       {/*Imkoniyatlar - ajoyib!   end*/}
 
-
-
       {/*Sizni nima kutmoqda?  start*/}
       <div className="bg-[#FFFFFF] h-340">
         <div className="max-w-6xl mx-auto">
@@ -488,8 +486,6 @@ function App() {
       </div>
       {/*Sizni nima kutmoqda?  end*/}
 
-      
-
       {/**kurslarimiz aynan start */}
       <div className="bg-[#F5F6FA] h-190">
         <div className="max-w-6xl mx-auto">
@@ -575,8 +571,6 @@ function App() {
       </div>
       {/**kurslarimiz aynan end */}
 
-
-
       {/**mentorlarimiz start */}
       <div className="bg-[#FFFFFF] h-210">
         <div className="mx-auto max-w-6xl">
@@ -606,8 +600,6 @@ function App() {
         </div>
       </div>
       {/**mentorlarimiz end */}
-
-
 
       {/*englify logo +haqida  start */}
       <div className="bg-[#00A4FF] h-220">
@@ -662,11 +654,12 @@ function App() {
       </div>
       {/*englify logo +haqida  end */}
 
-
       {/*Hamma uchun qulay tarif turlari va narxlar start*/}
       <div className="bg-[#FFFFFF] h-370">
         <div className="mx-auto max-w-6xl py-32">
-          <h2 className='text-5xl text-[#28004D] font-bold text-center align-center ' >Hamma uchun qulay tarif turlari va narxlar:</h2>
+          <h2 className="text-5xl text-[#28004D] font-bold text-center align-center ">
+            Hamma uchun qulay tarif turlari va narxlar:
+          </h2>
           <div className="grid grid-cols-2 gap-10 py-12">
             {/* JO'SHQIN  start*/}
             <div className="bg-white border border-[#26D96F] rounded-[30px] p-4">
@@ -833,28 +826,34 @@ function App() {
               </button>
             </div>
             {/* BO'TALOG'IM  start*/}
-            
           </div>
         </div>
       </div>
       {/*Hamma uchun qulay tarif turlari va narxlar end*/}
 
-
-
       {/**orzuga yaqinroq bo'ling  start */}
-      <div className='bg-[#F5F6FA] h-150'>
-        <div className='mx-auto max-w-6xl'>
-            <div className='flex gap-50 py-35'>
-              {/*chap taraf  start*/}
-              <div>
-                <h2 className='text-4xl text-[#28004D] font-bold '>Orzuga yaqinroq bo'ling – <br />o'qishga ariza bering!</h2><br />
-                <p className='text-xl text-[#28004D] font-bold '>Ingliz tilini  o'rganishni boshlash hech qachon bunchalik oson <br /> bo'lmagan. Englify - sizga online ta'limda ingliz tilini <br /> o'rganishning eng yaxshi usullarini taklif qiladi. <br /> Maqsadlaringizga tezroq erishish uchun darslarni bugundan  boshlang!</p>
-              </div>
-              {/*chap taraf  end*/}
+      <div className="bg-[#F5F6FA] h-150">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex gap-50 py-35">
+            {/*chap taraf  start*/}
+            <div>
+              <h2 className="text-4xl text-[#28004D] font-bold ">
+                Orzuga yaqinroq bo'ling – <br />
+                o'qishga ariza bering!
+              </h2>
+              <br />
+              <p className="text-xl text-[#28004D] font-bold ">
+                Ingliz tilini o'rganishni boshlash hech qachon bunchalik oson{' '}
+                <br /> bo'lmagan. Englify - sizga online ta'limda ingliz tilini{' '}
+                <br /> o'rganishning eng yaxshi usullarini taklif qiladi. <br />{' '}
+                Maqsadlaringizga tezroq erishish uchun darslarni bugundan
+                boshlang!
+              </p>
+            </div>
+            {/*chap taraf  end*/}
 
-
-              {/*o`ng taraf  satrt */}
-              <div className="bg-white  rounded-3xl p-6 max-w-md  w-190 h-80" >
+            {/*o`ng taraf  satrt */}
+            <div className="bg-white  rounded-3xl p-6 max-w-md  w-190 h-80">
               <div className="flex  flex-col  gap-1">
                 <label className=" text-[#28004D] font-bold">
                   Ismingiz va Familyangiz
@@ -884,12 +883,70 @@ function App() {
                 </button>
               </div>
             </div>
-              {/*o`ng taraf  end */}
-
-            </div>
-        </div>      
+            {/*o`ng taraf  end */}
+          </div>
+        </div>
       </div>
       {/**orzuga yaqinroq bo'ling  end */}
+
+      {/*footer start*/}
+      <footer className="bg-[#24004D] text-white">
+        <div className="max-w-[1440px] mx-auto px-[150px] py-[80px]">
+          <div className="grid grid-cols-3">
+            <div>
+              <img src='https://englify.uz/EnglifyFooterLogo.svg' alt="Englify" />
+            </div>
+
+            <div>
+              <a href="#" className="block mb-6 text-[18px] font-semibold">
+                Ommaviy oferta
+              </a>
+
+              <a href="#" className="block mb-6 text-[18px] font-semibold">
+                Maxfiy ma'lumotlar
+              </a>
+
+              <a href="#" className="block text-[18px] font-semibold">
+                Shaxsiy ma'lumotlarni qabul qilish
+              </a>
+            </div>
+
+            <div>
+              <p className="text-[18px] mb-6">+998 (55) 515-69-69</p>
+
+              <p className="text-[18px] mb-4">"ENGLIFY" MChJ</p>
+
+              <p className="text-[18px]">INN: 309795570</p>
+            </div>
+          </div>
+
+          <div className="w-full h-1px bg-white "></div>
+
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <p className="ml-10 text-[18px]">
+                © "ENGLIFY", 2026 - Barcha huquqlar himoyalangan
+              </p>
+            </div>
+
+            <div className="flex items-center">
+              <img src="#" alt="Uzcard" className="h-8 mr-3" />
+              <img src="#" alt="Humo" className="h-8 mr-3" />
+              <img src="#" alt="Visa" className="h-8 mr-3" />
+              <img
+                src="#"
+                alt="Mastercard"
+                className="h-8 mr-6"
+              />
+
+              <span className="mr-2 text-[18px]">Design by</span>
+
+              <img src="#" alt="Oscar" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      {/*footer end*/}
     </div>
   );
 }
